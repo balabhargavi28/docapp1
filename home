@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Homepage</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-image:url(https://www.asterhospitals.in/sites/default/files/2021-01/about-us-new.jpg);
+        }
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.hero-section {
+    background-color: #f0f0f0;
+    padding: 40px;
+    text-align: center;
+}
+
+.content-section {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Book Appointments</h1>
+        <nav>
+            <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="login" class="hero-section">
+            <h2><I>Welcome to DOCAPP</I></h2>
+            <p>Providing quality healthcare services to our community.</p>
+        </section>
+        <section id="services" class="content-section">
+            <h2>Our Services</h2>
+            <p>24/7 online booking services!</p>
+            <p>Doctor or service provider profiles</p>
+            <p>Assure users of the security measures in place to protect their personal and health information.</p>
+        </section>
+        <section id="contact" class="content-section">
+            <h2>Contact Us</h2>
+            <p>Mobile No: 9248613572</P>
+            <p>Email:vishnucareappointment@gmail.com</p>
+            <p>wecareuvishnu@gmail.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; All Time Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>
